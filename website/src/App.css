@@ -1,0 +1,25 @@
+body {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  margin: auto;
+  padding: 0px;
+  font-family: "Poppins", sans-serif;
+  color: black;
+}
+
+.row {
+  width: 100%;
+  max-width: 100%;
+}
+
+.navbar-brand,
+.navbar-brand:focus,
+.navbar-brand:hover {
+  color: white;
+}
+
+.navbar .nav-item .nav-link {
+  color: white;
+  cursor: pointer;
+}
