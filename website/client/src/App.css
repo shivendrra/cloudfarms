@@ -1,0 +1,36 @@
+body {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  margin: auto;
+  padding: 0px;
+  font-family: "Poppins", sans-serif;
+  color: black;
+  background-color: aliceblue;
+}
+
+.row {
+  width: 100%;
+  max-width: 100%;
+}
+
+.btn-custom {
+  background-color: transparent;
+  background-image: linear-gradient(90deg, #DF5162, #5A20FF, #1959FF);
+  border: none;
+  border-radius: 150px;
+  color: #FFF;
+  padding: 8px 25px;
+  margin: auto;
+}
+
+.btn-custom:hover {
+  background-color: transparent;
+  background-image: linear-gradient(90deg, #DF5162, #5A20FF, #1959FF);
+  border: none;
+  outline: 5px solid #5A20FF;
+  border-radius: 150px;
+  color: #FFF;
+  padding: 8px 25px;
+  margin: auto;
+}

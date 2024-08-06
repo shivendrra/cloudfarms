@@ -1,0 +1,59 @@
+.navbar {
+  background-color: #FFFFFF;
+  padding: 20px 10px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  color: black;
+}
+
+.navbar-brand,
+.navbar-brand:focus,
+.navbar-brand:hover {
+  color: black;
+}
+
+.navbar .nav-item .nav-link {
+  color: black;
+  cursor: pointer;
+}
+
+.navbar .nav-item {
+  margin: 0px 10px;
+}
+
+.navbar-toggler {
+  border: none;
+}
+
+.navbar-toggler:focus {
+  box-shadow: none;
+  border: none;
+}
+
+.navbar-toggler svg {
+  color: black;
+}
+
+.dropdown-menu {
+  border: 1px solid;
+  border-radius: 0px;
+  font-size: smaller;
+}
+
+.navbar .navbar-collapse .navbar-nav .button-item {
+  margin: auto inherit;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+@media only screen and (max-width: 600px) {
+  .navbar {
+    padding: 20px 20px;
+  }
+  .navbar .nav-item {
+    margin: 0px 0px;
+  }
+}

@@ -1,8 +1,9 @@
 import './App.css';
-import Lander from './components/Lander';
-import Navbar from './components/Navbar';
-import Products from './components/Products';
+import Lander from './components/Lander/Lander';
+import Navbar from './components/Navbar/Navbar';
+import Products from './components/Products/Products';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+
 function App() {
   return (
     <>
